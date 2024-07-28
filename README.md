@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import pickBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-pick-by@deno/mod.js';
+import pickBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-pick-by@v0.2.2-deno/mod.js';
 ```
 
 #### pickBy( obj, predicate )
@@ -100,7 +100,7 @@ var obj2 = pickBy( obj1, predicate );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import pickBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-pick-by@deno/mod.js';
+import pickBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-pick-by@v0.2.2-deno/mod.js';
 
 function predicate( key, value ) {
     return ( typeof value === 'number' );
